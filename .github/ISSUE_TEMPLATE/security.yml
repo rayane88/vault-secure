@@ -1,0 +1,39 @@
+name: 🔐 Security Vulnerability
+description: Report a security vulnerability responsibly
+title: "[Security] "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **If you have found a critical vulnerability**, please email the maintainer directly instead of opening a public issue.
+        
+        Email: vaultsecure@proton.me (example)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Vulnerability Description
+      description: Describe the security issue in detail.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: What data or functionality is at risk?
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can someone exploit this vulnerability?
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Responsible Disclosure
+      options:
+        - label: I will not publicly disclose this vulnerability before a fix is released
+          required: true

@@ -1,5 +1,8 @@
 {
   "name": "vault-secure",
+  "description": "Personal digital vault — AES-256-GCM encrypted password manager, crypto wallet storage, and secure file keeper. 100% offline.",
+  "author": "rayane88 <rayane88@github.com>",
+  "license": "MIT",
   "private": true,
   "version": "1.0.0",
   "type": "module",
