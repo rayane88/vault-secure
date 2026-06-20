@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist-ssr
+*.local
+
+# Build outputs
+dist/
+release/
+*.tgz
+
+# Installer / Distribution
+Vault-Secure-Installer/
+*.zip
+*.msi
+*.exe
+create_shortcut.vbs
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Electron
+out/
+
+# Testing
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Lock files (optional - keep one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
